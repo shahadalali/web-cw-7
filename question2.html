@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
     <link rel="stylesheet" href="styles.css" />
     <title>رخصتك 🎫 🚔</title>
   </head>
@@ -11,6 +10,32 @@
     <!-- consoleبهذا التمرين راح نعتمد على ال -->
 
     <script>
+
+
+let drivers = [
+      { name: "mohammed", age: "35" },
+      { name: "omaran", age: "17" },
+      { name: "hamad", age: "36" }
+    ];
+    function licensetest() {
+      for (let index = 0; index < drivers.length; index++) {
+        const element = drivers[index];
+        if (element.age >= 18) {
+
+          console.log(`تفضل رخصتك يا${name}`);
+        }
+        else if (element.age < 18) {
+          console.log(`نعتذر منك، المرة الياية إن شاء الله`);
+        }
+
+
+
+
+      }
+
+    }
+    licensetest();
+
       // 1
       /* objects تحتوي على array قم بتعريف
          drivers <= arrayسمي ال
